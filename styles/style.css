@@ -1,5 +1,47 @@
 @import "reset.css";
 
+body {
+  background-color: peachpuff;
+}
+
 h1 {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
   font-size: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 500px;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rename {
+  position: relative;
+  bottom: 400px;
+}
+
+input {
+  display: flex;
+  width: 200px;
+  height: 25px;
+  text-align: center;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+.js-remove {
+  opacity: 0;
 }
