@@ -21,7 +21,7 @@ h1 {
   position: relative;
   bottom: 500px;
 }
-div {
+.rename-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,4 +44,20 @@ input::placeholder {
 
 .js-remove {
   opacity: 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
 }
